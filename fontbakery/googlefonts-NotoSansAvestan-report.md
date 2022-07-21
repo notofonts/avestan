@@ -2,13 +2,10 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[12] NotoSansAvestan-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[12] NotoSansAvestan-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -23,7 +20,7 @@ But instead we have got:
 
 
 * 🔥 **FAIL** Version number 2.001007080078125 is equal to version on Google Fonts.
-* 🔥 **FAIL** Version number 2.001007080078125 is equal to version on Google Fonts GitHub repo.
+* 🔥 **FAIL** Version number 2.001007080078125 is less than version on Google Fonts GitHub repo (2.0019989013671875).
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
@@ -116,7 +113,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 7 | 115 | 8 | 100 | 0 |
+| 1 | 4 | 7 | 114 | 7 | 102 | 0 |
 | 0% | 2% | 3% | 49% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
